@@ -1,0 +1,273 @@
+/*
+.color1 { #f3ffd2 };
+.color2 { #bff1ce };
+.color3 { #82bda7 };
+.color4 { #6e837c };
+.color5 { #2e0527 };
+*/
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #2e0527;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header, .content-main, .content-info, .bydados, .content-ceo, .content-contact {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    background-color: #82bda7;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2e0527;
+    gap: 16px;
+}
+.header-logo-name{
+    font-size: larger;
+    font-weight: 600;
+}
+.header-logo-img img {
+    width: 65px;
+}
+
+.header-link {
+    color: #2e0527;
+}
+
+.content-main {
+    background-color: #82bda7;
+}
+
+.content-info {
+    background-color: #bff1ce;
+}
+
+.header-center {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+.content-main-center {
+    width: 80%;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-main-left {
+    width: 50%;
+}
+
+.content-main-left-title {
+    color: #2e0527;
+}
+
+.content-main-left-descrition {
+    text-align: justify;
+    color: #2e0527;
+    text-decoration-color: #2e0527;
+}
+
+.content-main-right {
+    width: 50%;
+    margin: 8px;
+}
+
+.content-main-left-botton {
+    display: flex;
+    justify-content: end;
+}
+
+button {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 4px 4px #2e0527;
+    background: #f3ffd2;
+    padding: 12px;
+}
+
+.content-main-right-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #f3ffd2;
+    font-weight: 600;
+}
+
+.content-info-center {
+    width: 80%;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-info-title {
+    display: flex;
+    justify-content: center;
+    color: #2e0527;
+}
+
+.content-info-itens {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.box-itens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-ceo {
+    background-color: #f3ffd2;
+}
+
+.box a:hover {
+    color: #2e0527;
+    font-weight: 600;
+}
+
+.content-ceo-center {
+    display: flex;
+    flex-direction: column;
+    margin: 32px;
+    padding: 32px;
+    width: 30%;
+}
+
+.content-ceo-text {
+    text-align: justify;
+    font-style: italic;
+}
+
+.content-ceo-assinatura {
+    display: flex;
+    justify-content: end;
+    font-weight: 600;
+}
+
+.content-main-right-image img {
+    width: 400px;
+    border: 3px solid #2e0527;
+    border-radius: 8px;
+    box-shadow: 4px 4px #2e0527;
+}
+
+.bydados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    background-color: #6e837c;
+    color: #ffff;
+}
+
+
+.content-contact-center {
+    width: 80%;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+}
+.content-contact {
+    background-color: #ffff;
+}
+.content-contact-text-title{
+    font-weight: 600;
+}
+.content-contact-box{
+    background-color: #82bda7;   
+    width: 60%;
+    padding: 16px;
+    margin: 40px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content-contact-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-contact-text-info{
+    color: #f3ffd2;
+}
+
+.box a {
+    font-weight: 500;
+}
+.box-itens img{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #2e0527;
+    border-radius: 8px;
+    box-shadow: 4px 4px #2e0527;
+}
+
+.box-itens img:hover{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #2e0527;
+    border-radius: 8px;
+    box-shadow: -4px -4px #2e0527;
+}
+
+.content-contact-button a {
+    color: #2e0527;
+}
+
+.content-contact-button button:hover {
+    color: #2e0527;
+    box-shadow: -4px -4px #2e0527;
+}
+
+.content-main-left-botton a {
+    color: #2e0527;
+}
+
+.content-main-left-botton button:hover {
+    color: #2e0527;
+    box-shadow: -4px -4px #2e0527;
+}
